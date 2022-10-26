@@ -1,4 +1,3 @@
-from re import I
 import aws_cdk as cdk
 import aws_cdk.aws_ec2 as ec2
 import aws_cdk.aws_s3 as s3
