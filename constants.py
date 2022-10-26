@@ -1,4 +1,4 @@
-WORKLOAD_NAME = "S3Endpoints"
+WORKLOAD_NAME = "S3AccessPoints"
 
 DATA_FLOWS = [
     {"name": "foo", "role": "Admin/spohna-Isengard-Foo"},

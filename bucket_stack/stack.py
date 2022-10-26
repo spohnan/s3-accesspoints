@@ -3,7 +3,7 @@ import aws_cdk.aws_s3 as s3
 import constants
 
 from constructs import Construct
-from s3_accesspoint.component import S3Accesspoint
+from s3_accesspoint.component import S3AccessPoint
 from typing import Any
 
 
@@ -26,4 +26,4 @@ class BucketStack(cdk.Stack):
         )
 
         for f in constants.DATA_FLOWS:
-            S3Accesspoint(self, f["name"], flow=f, bucket_name=upload_bucket.bucket_name)
+            S3AccessPoint(self, f["name"], flow=f, bucket_name=upload_bucket.bucket_name)

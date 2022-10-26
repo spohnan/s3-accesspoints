@@ -7,7 +7,7 @@ from constructs import Construct
 from typing import Any
 
 
-class S3Accesspoint(Construct):
+class S3AccessPoint(Construct):
     def __init__(
         self,
         scope: Construct,
